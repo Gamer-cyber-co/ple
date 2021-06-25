@@ -63,7 +63,7 @@ detectollision(stone,mango12);
 function draw() {
   rectMode(CENTER);
   background(0);
-  
+  drawSprites()
   mango1.display();
   mango2.display();
   mango3.display();
@@ -90,7 +90,7 @@ function draw() {
   detectollision(stone,mango10);
   detectollision(stone,mango11);
   detectollision(stone,mango12);
-  drawSprites();
+  ;
 }
 function mouseDragged()
 {
