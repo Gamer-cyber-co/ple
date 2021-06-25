@@ -43,19 +43,6 @@ Tree.scale=0.5
 	mango12=new Mango(900,160,40);
 	stone=new Stone(247,442);
 	launcher = new Launcher({x:150,y:450},stone.body)	
-
-	detectollision(stone,mango1);
-detectollision(stone,mango2);
-detectollision(stone,mango3);
-detectollision(stone,mango4);
-detectollision(stone,mango5);
-detectollision(stone,mango6);
-detectollision(stone,mango7);
-detectollision(stone,mango8);
-detectollision(stone,mango9);
-detectollision(stone,mango10);
-detectollision(stone,mango11);
-detectollision(stone,mango12);
   
 }
 
